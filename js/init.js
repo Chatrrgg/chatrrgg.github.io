@@ -2,7 +2,7 @@
  * configuración en tu servidor de Firebase.  */
 // @ts-ignore
 firebase.initializeApp({
-    apiKey: "AIzaSyCDfBhuqld0MbGTj-SV3qcoh_Mv6KcYgV4",
+   apiKey: "AIzaSyCDfBhuqld0MbGTj-SV3qcoh_Mv6KcYgV4",
   authDomain: "chatrrgg-61226.firebaseapp.com",
   projectId: "chatrrgg-61226",
   storageBucket: "chatrrgg-61226.appspot.com",
