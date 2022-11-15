@@ -47,6 +47,8 @@
             usuario = usuarioAuth.email;
             // Muestra los mensajes del chat.
             muestraMensajes();
+             // @ts-ignore Muestra el avatar registrado en Google.
+            avatar.src = usuarioAuth.photoURL;
           } else {
             // No ha iniciado sesión. Pide datos para iniciar sesión.
             await auth.signInWithRedirect(provider);
